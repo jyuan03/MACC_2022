@@ -1,0 +1,46 @@
+﻿technologies,CAPEX,Installation,OPEX,MethaneReduction,MinFR,MaxFR,Other
+VRU_25,64296,0.00,13254.50, 0.95 ,0.10,0.70,0.00
+VRU_50,82890.3,0.00,15147.20, 0.95 ,0.30,1.40,0.00
+VRU_100,99892.9,0.00,18176.90, 0.95 ,0.60,2.80,0.00
+VRU_200,133898.2,0.00,21206.50, 0.95 ,1.10,5.70,0.00
+VRU_500,187032.7,0.00,30295.60, 0.95 ,3.10,14.20,0.00
+Flare,112803.2,0.00,10794.60, 0.98 ,0.10,2.00,0.00
+Casing_flare_high,83548.7,59855.80,1247.00, 0.95 ,0.10,2.00,0.00
+Casing_flare_low,19951.9,73572.70,345.40, 0.95 ,0.10,2.00,0.00
+Casing_tiein_high,52373.8,197025.20,7980.80, 0.95 ,0.00,0.90,0.00
+Casing_tiein_low,26186.9,24939.90,6235.00, 0.95 ,0.00,0.50,0.00
+Catconv,29709.1,0.00,2376.70,0.80,0.10,0.10,0.00
+Vapourcombuster_high,74077.3,0.00,0.00, 0.98 ,0.00,2.80,0.00
+Vapourcombuster_low,29630.9,0.00,0.00, 0.98 ,0.00,0.60,0.00
+Gasbladder,1181.9,0.00,0.00,1.00,0.00,0.90,0.00
+Gasstorage_high_pertruck,167915.5,0.00,0.00,1.00,0.00,4.00,0.00
+Gasstorage_low_pertruck,131933.6,0.00,0.00,1.00,0.00,4.00,0.00
+Gridconnect,23650.1,118250.40,0.00,0.00,0.00,0.00,0.00
+Electricflare,,5997.00,0.00,0.00,0.00,0.00,0.00
+Compressor_intercept,,0.00,0.00,0.00,0.00,0.00,224802.90
+Compressor_slope,,0.00,0.00,0.00,0.00,0.00,18885.70
+Pipeline per m,103.2,0.00,10.30,0.00,0.00,0.00,0.00
+Generator,106047.6,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+testsort.to_csv('macc_sortingdata.csv'),,,,,,,
+testgroupby.to_csv('macc_groupingdata_average.csv'),,,,,,,
+testgroupbysum = test.groupby('Lowest CO2e abatement cost option').sum(),,,,,,,
+"<input>:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.sum is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.",,,,,,,
+testgroupbysum.to_csv('macc_groupingdata_sum.csv'),,,,,,,

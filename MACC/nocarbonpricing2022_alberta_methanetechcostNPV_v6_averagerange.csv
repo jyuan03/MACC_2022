@@ -1,0 +1,11 @@
+,Lowest CO2e abatement cost option,range,Lowest CO2e abatement cost value
+1,Casinggasflare_MACCCO2e,"(0.0, 10.0]",1.3135510629057228
+2,Casinggasflare_MACCCO2e,"(10.0, 20.0]",12.806180042312484
+3,Casinggasflare_MACCCO2e,"(20.0, 30.0]",21.34692006906086
+12,Casinggastiein_MACCCO2e,"(-10.001, 0.0]",-1.5023028112689876
+13,Casinggastiein_MACCCO2e,"(0.0, 10.0]",0.5018785233303885
+25,ElecGDFlareReci,"(0.0, 10.0]",1.1376396420534034
+37,ElecReci,"(0.0, 10.0]",2.3338405765131007
+54,VRUVapcombGrid_MACCCO2e,"(100.0, 200.0]",123.06936044370099
+61,pneuReci,"(0.0, 10.0]",1.2111151958032977
+73,pneuScrew,"(0.0, 10.0]",1.237165173147269

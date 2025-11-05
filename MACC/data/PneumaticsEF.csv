@@ -1,0 +1,8 @@
+﻿Device Type,Average Vent Rate,"95% Confidence Interval
+(% of mean)"
+Level Controller,0.3508,31.68
+Positioner,0.2627,39.02
+Pressure Controller,0.3217,35.95
+Transducer,0.2335,22.54
+Intermittent,0.3206,31.53
+Pump,0.9726,13.99
